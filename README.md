@@ -1,4 +1,4 @@
-### Digital Business Card Templates
+# Digital Business Card Templates
 
 ### 📦 Quick Start
 
