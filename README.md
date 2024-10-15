@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+### Digital Business Card Templates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📦 Quick Start
 
-Currently, two official plugins are available:
+> First, make sure you have [Node](https://nodejs.org/en) installed in your local environment before performing the following steps.
+>
+> If the [Yarn](https://classic.yarnpkg.com/lang/en/) package management command is not installed in your environment, execute: `npm i -g yarn`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. ##### Download source code
 
-## Expanding the ESLint configuration
+   > Create a local folder to store this project, then enter the folder location through CMD and execute the following commands in sequence:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   ```shell
+   git clone https://github.com/strivelen/dcard-templates.git .
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. ##### Installation dependencies:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   ```shell
+   yarn
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. ##### Run locally: 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   ```
+   yarn dev
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   
+
+## 🔗 References
+
+* [Node](https://nodejs.org/en)
+* [Yarn](https://classic.yarnpkg.com/lang/en/)
+* [Vite](https://vite.dev/)
+* [React](https://react.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
