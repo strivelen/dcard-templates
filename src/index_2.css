@@ -37,6 +37,7 @@ button {
   background: #ffffff;
   border-radius: 16px;
   color: #666666;
+  font-weight: 500;
 }
 
 .box {
@@ -165,7 +166,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -192,7 +192,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -207,7 +206,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -315,7 +313,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -359,7 +356,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -403,7 +399,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -457,7 +452,6 @@ button {
   height: 20px;
   font-family: Segoe UI, var(--default-font-family);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-align: left;
   white-space: nowrap;
@@ -629,6 +623,7 @@ button {
   background: #ececec;
   border-radius: 16px;
   color: #535353;
+  font-weight: 500;
 }
 
 /* Template 4 */
@@ -646,6 +641,7 @@ button {
   background: #242323;
   border-radius: 16px;
   color: #ececec;
+  font-weight: 500;
 }
 
 .wrapper-4-dark {
@@ -668,4 +664,302 @@ button {
   background: #000000;
   border: 1px solid #c6c6c6;
   color: #ffffff;
+}
+
+/* Template 5 */
+.main-container-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 378px;
+  height: 799px;
+  margin: 0 auto;
+  padding: 36px 24px 36px 24px;
+  border-radius: 16px;
+  background-color: #008fa1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse' patternTransform='scale(0.7)'%3E%3Cpath data-color='fill' fill='%23FFF' d='M50 0C22.4 0 0 22.4 0 50c27.6 0 50-22.4 50-50zM0 50c0 27.6 22.4 50 50 50 0-27.6-22.4-50-50-50zM100 50c-27.6 0-50 22.4-50 50 27.6 0 50-22.4 50-50zM100 50c0-27.6-22.4-50-50-50 0 27.6 22.4 50 50 50z'%3E%3C/path%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(0, 16, 20);
+  font-weight: 500;
+}
+
+.box-template-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.774);
+  backdrop-filter: blur(5.5px);
+}
+
+.text-8-template-5 {
+  color: white;
+}
+
+.wrapper-4-persian {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+  padding: 10px 12px 10px 6px;
+  background: #008fa1;
+  z-index: 32;
+  border-radius: 6px;
+  justify-content: center;
+}
+
+.text-9-persian {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  color: rgb(0, 25, 32);
+  font-family: Segoe UI, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 37;
+}
+
+.section-4-persian {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  padding: 24px 16px 24px 16px;
+  background-color: #005d693a;
+  z-index: 18;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+
+.group-6-persian {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  padding: 12px 16px 16px 16px;
+  z-index: 35;
+}
+
+/* Template 6 */
+.main-container-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 378px;
+  height: 799px;
+  margin: 0 auto;
+  padding: 36px 24px 36px 24px;
+  border-radius: 16px;
+  background-color: #20006b;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse' patternTransform='scale(0.7)'%3E%3Cpath data-color='fill' fill='%23FFF' d='M50 0C22.4 0 0 22.4 0 50c27.6 0 50-22.4 50-50zM0 50c0 27.6 22.4 50 50 50 0-27.6-22.4-50-50-50zM100 50c-27.6 0-50 22.4-50 50 27.6 0 50-22.4 50-50zM100 50c0-27.6-22.4-50-50-50 0 27.6 22.4 50 50 50z'%3E%3C/path%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #0c0029;
+  font-weight: 500;
+}
+
+.box-template-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.774);
+  backdrop-filter: blur(5.5px);
+}
+
+.text-8-template-5 {
+  color: white;
+}
+
+.wrapper-4-persian-2 {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+  padding: 10px 12px 10px 6px;
+  background: #20006b;
+  z-index: 32;
+  border-radius: 6px;
+  justify-content: center;
+}
+
+.text-9-persian-2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  color: #17004d;
+  font-family: Segoe UI, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 37;
+}
+
+.section-4-persian-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  padding: 24px 16px 24px 16px;
+  background-color: #20006b2f;
+  z-index: 18;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+/* Template 7 */
+.main-container-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 378px;
+  height: 799px;
+  margin: 0 auto;
+  padding: 36px 24px 36px 24px;
+  border-radius: 24px;
+  background-color: #6200FF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='250' height='30' patternUnits='userSpaceOnUse' patternTransform='rotate(43) scale(0.85)'%3E%3Cpath id='a' data-color='outline' fill='none' stroke='%23000000' stroke-width='8.41' d='M-62.5-15C-31.3-15 0-7.5 0-7.5S31.3 0 62.5 0 125-7.5 125-7.5s31.3-7.5 62.5-7.5S250-7.5 250-7.5 281.3 0 312.5 0'%3E%3C/path%3E%3Cuse xlink:href='%23a' y='15'%3E%3C/use%3E%3Cuse xlink:href='%23a' y='30'%3E%3C/use%3E%3Cuse xlink:href='%23a' y='45'%3E%3C/use%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.box-template-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.774);
+  backdrop-filter: blur(2.2px);
+}
+
+.text-9-wave {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  font-family: Segoe UI, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 37;
+  color: #aaaaaa;
+}
+
+/* Template 8 */
+.main-container-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 378px;
+  height: 799px;
+  margin: 0 auto;
+  padding: 36px 24px 36px 24px;
+  border-radius: 18px;
+
+
+  background-color: #B9DAFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='50' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath data-color='fill' fill='%23FFFFFF' d='M50 50c0 24.1-25 25-25 50C25 75 0 74.1 0 50S25 25 25 0c0 25 25 25.9 25 50z'%3E%3C/path%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+
+  color: #002b7c;
+  font-weight: 500;
+}
+
+.box-template-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 1rem;
+  background: #ffffff9c;
+  backdrop-filter: blur(4px);
 }
